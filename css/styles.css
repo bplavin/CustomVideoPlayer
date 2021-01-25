@@ -20,9 +20,51 @@ h1 {
 }
 
 .screen {
-  width: 50%;
+  width: 60%;
   cursor: pointer;
   background-color: #000 !important;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.controls {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: #333;
+  color: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.controls .btn {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.controls .fa-play {
+  color: green;
+}
+
+.controls .fa-stop {
+  color: red;
+}
+
+.controls .fa-pause {
+  color: #fff;
+}
+
+.controls .timestamp {
+  margin-left: 10px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn:focus {
+  outline: 0;
 }
 
 /* !!!!!------- MOBILE DEVICES -------!!!!!! */
